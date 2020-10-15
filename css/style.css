@@ -187,12 +187,21 @@ footer .footer-right {
 @media screen and (max-width: 1280px) {
 	.img-box li {
 		margin-right: 30px;
+	}
+	.img-box li:last-child {
+		margin-top: 30px;
+	}
 }
 
 /* タブレット用 */
-/*@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
+	.img-box {
+		flex-wrap: wrap;
+		margin-right: 0;
+	}
+
 }
-*/
+
 
 /* スマホ用 */
 @media screen and (max-width: 480px) {
@@ -255,9 +264,24 @@ footer .footer-right {
 		margin-top: 20px;
 	}
 	/* contact */
-	.form {
+	.contact .form {
 		flex-flow: column nowrap;
-		align-items: center;
+		margin: 30px 0;
+	}
+	.form .name, .form .email, .form .inquiry {
+		width: 80%;
+	}
+	.form .name, .form .email {
+		height: 30px;
+	}
+	.form .inquiry {
+		height: 50px;
+	}
+	.form-left {
+		margin-right: 0;
+	}
+	.form-right {
+		margin-top: 20px;
 	}
 	/* footer */
 }
