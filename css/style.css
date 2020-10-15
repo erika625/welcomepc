@@ -188,9 +188,6 @@ footer .footer-right {
 	.img-box li {
 		margin-right: 30px;
 	}
-	.img-box li:last-child {
-		margin-top: 30px;
-	}
 }
 
 /* タブレット用 */
@@ -199,7 +196,34 @@ footer .footer-right {
 		flex-wrap: wrap;
 		margin-right: 0;
 	}
-
+	.img-box li {
+		margin-right: 0;
+	}
+	.img-box li:first-child {
+		margin-right: 60px;
+	}
+	.img-box li:last-child {
+		margin-top: 30px;
+	}
+	.contact .form {
+		flex-flow: column nowrap;
+		margin: 30px 0;
+	}
+	.form .name, .form .email, .form .inquiry {
+		width: 60%;
+	}
+	.form .name, .form .email {
+		height: 30px;
+	}
+	.form .inquiry {
+		height: 100px;
+	}
+	.form-left {
+		margin-right: 0;
+	}
+	.form-right {
+		margin-top: 20px;
+	}
 }
 
 
@@ -258,6 +282,7 @@ footer .footer-right {
 	}
 	.img-box li:first-child {
 		margin-top: 0;
+		margin-right: 0;
 	}
 	.img-box li span {
 		font-size: 16px;
@@ -284,6 +309,17 @@ footer .footer-right {
 		margin-top: 20px;
 	}
 	/* footer */
+	footer {
+		display: flex;
+		justify-content: center;
+	}
+	footer .icon {
+		display: none;
+	}
+	footer .footer-right {
+		margin-right: 0;
+		font-size: 15px;
+	}
 }
 
 
