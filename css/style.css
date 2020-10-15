@@ -158,7 +158,7 @@ header {
 	margin-bottom: 20px;
 }
 .contact .form {
-	margin: 50px 0 40px;
+	margin: 30px 0;
 }
 .contact button {
 	background-color: #1dace0;
@@ -214,6 +214,9 @@ footer .footer-right {
 	}
 	.img-box li:last-child {
 		margin-top: 30px;
+	}
+	.contact {
+		height: 500px;
 	}
 	.contact .form {
 		flex-flow: column nowrap;
@@ -299,6 +302,9 @@ footer .footer-right {
 		margin-top: 20px;
 	}
 	/* contact */
+	.contact {
+		height: 400px;
+	}
 	.contact .form {
 		flex-flow: column nowrap;
 		margin: 30px 0;
