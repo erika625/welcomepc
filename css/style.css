@@ -204,7 +204,6 @@ footer .footer-right {
 @media screen and (max-width: 960px) {
 	.img-box {
 		flex-wrap: wrap;
-		margin-right: 0;
 	}
 	.img-box li {
 		margin-right: 0;
